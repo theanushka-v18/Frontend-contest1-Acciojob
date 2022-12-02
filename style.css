@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    background: #b94646;
+}
+
+header h1 {
+    text-align: center;
+    padding: 1rem;
+}
+
+main {
+    background: #000000;
+    height: 84vh;
+    border: 2px solid #000000;
+}
+
+main .container {
+    width: max-content;
+    /* padding: 1rem; */
+    margin: auto;
+    margin-top: 7vh;
+}
+
+main .container h2 {
+    font-size: 36px;
+    font-weight: 300;
+    margin-bottom: 2rem;
+}
+
+main .container form > input {
+    display: block;
+    border-style: hidden;
+    border-bottom-style: groove;
+    background: #000000;
+}
+
+main .container form > input.extra {
+    width: 40rem;
+    padding-top: 0.5rem;
+    padding-right: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+main .container form > input.to-inline {
+    display: inline;
+}
+
+main .container #to-margin {
+    margin-right: 5rem;
+}
+
+main .container #mtop {
+    margin-top: 1rem;
+}
+
+main .container form input:focus {
+    outline: none;
+}
+
+main .container .inner {
+    margin-bottom: 3rem;
+}
+
+main .container form button {
+    padding: 0.5rem 2.5rem;
+}
+
+main .container form button:hover {
+    cursor: pointer;
+}
+
+footer {
+    background: #b94646;
+}
+
+footer p {
+    text-align: center;
+    padding: 0.5rem;
+}

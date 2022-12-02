@@ -1,12 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" type="image/x-icon" href="./favicon.ico" />
     <title>Sign up Page</title>
-</head>
-<body>
-    Hello This is a siign up page.
-</body>
+  </head>
+  <body>
+    <header>
+      <h1>Front-End 1 Contest 1</h1>
+    </header>
+
+    <main>
+      <div class="container">
+        <h2>Signup</h2>
+        <form>
+          <input
+            style="color: white"
+            class="no-outline extra"
+            type="text"
+            placeholder="Full Name"
+            required
+          />
+          <input
+            style="color: white"
+            class="no-outline extra"
+            type="email"
+            placeholder="Email"
+            required
+          />
+          <input
+            style="color: white"
+            class="no-outline extra"
+            type="password"
+            placeholder="Password"
+            required
+          />
+          <input
+            style="color: white"
+            class="no-outline extra"
+            type="password"
+            placeholder="Confirm Password"
+            required
+          />
+          <input
+            style="color: white"
+            class="no-outline extra"
+            type="text"
+            placeholder="DOB"
+            required
+          />
+          <input
+            style="color: white"
+            class="no-outline to-inline"
+            type="radio"
+            name="role"
+            value="Student"
+            required
+          />
+          <label id="to-margin" for="html">Student</label>
+          <input type="radio" name="role" value="Employee" class="to-inline" />
+          <label for="css">Employee</label>
+          <div class="inner">
+            <input
+              id="mtop"
+              type="checkbox"
+              name="checkbox1"
+              value="condition"
+              required
+            />
+            <label for="checkbox1"
+              >I agree to all the Terms and Conditions</label
+            >
+          </div>
+          <button type="submit">Signup</button>
+        </form>
+      </div>
+    </main>
+
+    <footer>
+      <p>All Rights Reserved &copy; 2022</p>
+    </footer>
+  </body>
 </html>
